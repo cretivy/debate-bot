@@ -1,6 +1,6 @@
 aiogram
 google-generativeai
 pydub
-speech_recognition
+SpeechRecognition
 fastapi
 uvicorn
