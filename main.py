@@ -10,9 +10,9 @@ from pydub import AudioSegment
 import speech_recognition as sr
 
 # --- SOZLAMALAR ---
-API_TOKEN = '8723075538:AAFbLfxeHP84blCo2sfPOXOC8gFkp-C_NAo'
-GEMINI_KEY = 'AIzaSyAIMsyORC4hte71JE9L9x4gUhwtCfOkn7M'
-WEBAPP_URL = 'https://cretivy.github.io/debate_app/'
+API_TOKEN = ''
+GEMINI_KEY = ''
+WEBAPP_URL = ''
 
 genai.configure(api_key=GEMINI_KEY)
 model = genai.GenerativeModel('gemini-1.5-flash')
@@ -291,3 +291,4 @@ if __name__ == "__main__":
     # Render avtomatik ravishda PORT muhit o'zgaruvchisini beradi
     port = int(os.environ.get("PORT", 8000))
     uvicorn.run(app, host="0.0.0.0", port=port)
+
