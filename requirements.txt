@@ -1,0 +1,6 @@
+aiogram
+google-generativeai
+pydub
+speech_recognition
+fastapi
+uvicorn
